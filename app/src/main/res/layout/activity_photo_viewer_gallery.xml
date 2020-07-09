@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".Activity.PhotoViewerGalleryActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/mainImage"
+        android:src="@drawable/ic_icon_alpha"/>
+
+    <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="@android:color/white"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+
+        />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_share_black_24dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="40dp"
+        android:scaleType="fitCenter"
+        android:focusable="true"
+        android:id="@+id/shareButtonImage"
+        android:tint="#fff"
+        />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="40dp"
+        android:layout_toEndOf="@+id/shareButtonImage"
+        android:scaleType="fitCenter"
+        android:focusable="true"
+        android:id="@+id/deleteButtonImage"
+        />
+
+</RelativeLayout>

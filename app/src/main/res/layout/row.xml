@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="2dp"
+    android:id="@+id/item"
+    android:background="@color/colorLight"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/iconView"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="10dp"
+        android:id="@+id/nameText"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="Default"
+        android:layout_toEndOf="@+id/iconView"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iconView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:id="@+id/sizeText"
+        android:layout_marginStart="10dp"
+        android:textSize="13sp"
+        android:layout_alignBottom="@+id/iconView"
+        android:textColor="@color/colorSecondary"
+        android:text="Default"
+        android:layout_toEndOf="@+id/iconView"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iconView" />
+
+</RelativeLayout>

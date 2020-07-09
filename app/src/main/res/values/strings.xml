@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Clean and Small Manager</string>
+    <string name="zip_string">ZIP</string>
+    <string name="file_string">File</string>
+    <string name="androidapkfile_string">Android APK File</string>
+    <string name="paste">Paste</string>
+    <string name="new_folder_string">New Folder</string>
+    <string name="rename_string">Rename</string>
+    <string name="extract_here">Extract Here</string>
+    <string name="new_file">New File</string>
+    <string name="settings_string">Settings</string>
+    <string name="showcase1">Welcome, this is an important permission for the app to work.</string>
+    <string name="showcase2">Here\'s the list of all the files/folders in your phone.</string>
+    <string name="showcase3">You can hold touch them to show a menu. Here, in this menu you can actually   copy/delete/rename/compress a file.</string>
+    <string name="showcase4">Touching a ZIP file will extract it.</string>
+    <string name="required_permission_string">Required Permission for App to work :).</string>
+    <string name="appmanage_string">App Manage</string>
+    <string name="lagtv_youtube_string" translatable="false">LagTV Youtube Channel</string>
+    <string name="extracting_string">Extracting</string>
+    <string name="extracted">Extracted</string>
+    <string name="deleted_string">Deleted</string>
+    <string name="deleting_string">Deleting</string>
+    <string name="compressing_completed_string">Compressing of File is completed.</string>
+    <string name="adding_to_zip_string">Adding into Zip</string>
+    <string name="delete">Delete</string>
+    <string name="copy_string">Copy</string>
+    <string name="compress">Compress</string>
+    <string name="showcase5">Click here to sort by different values.</string>
+    <string name="arrangedate_string">Arrange by Date</string>
+    <string name="arrangename_string">Arrange by Name</string>
+    <string name="open_external_storage">Open External Storage</string>
+    <string name="open_download_folder">Open Download Folder</string>
+    <string name="open_images_storage">Open Images Folder</string>
+    <string name="open_data_storage">Open Data Folder</string>
+    <string name="open_music_storage">Open Music Folder</string>
+    <string name="open_internal_storage">Open Internal Storage</string>
+    <string name="properties">Properties</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="loading_your_favorite_and_simple_manager">Loading your favorite and Simple Manager!</string>
+    <string name="internet">Requires Internet for the first launch.</string>
+
+    >
+</resources>
